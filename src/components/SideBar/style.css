@@ -1,0 +1,24 @@
+.list-content{
+    padding:5px;
+}
+.list-item{
+    margin: 10px 0;
+    padding:5px 10px;
+    box-shadow: 0 0 5px 3px #efefef;
+}
+.list-item:hover .list-item-title{
+    color:#1890ff; 
+ }
+ .list-item:hover{
+    cursor: pointer;
+}
+.list-item-title{
+    font-size:16px;
+    font-weight: 800;
+    margin:5px 0;
+}
+.list-item-desc{
+    color:#999;
+    font-size:14px;
+    margin:0;
+}
