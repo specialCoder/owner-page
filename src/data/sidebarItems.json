@@ -2,17 +2,17 @@
     {
         "title":"baidu",
         "desc":"baidu",
-        "link":"www.baidu.com"
+        "link":"https://www.baidu.com"
     },
     {
         "title":"google",
         "desc":"google",
-        "link":"google.com"
+        "link":"https://google.com"
     },
     {
         "title":"toutiao",
         "desc":"toutiao",
-        "link":"/"
+        "link":"https://"
     },
     {
         "title":"tengxun",

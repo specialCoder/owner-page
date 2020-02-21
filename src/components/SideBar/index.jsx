@@ -14,7 +14,6 @@ function getSidebarLabels(data){
 
 const ListContent = (props)=>{
 	const {data} = props;
-	console.log('props data-->',props.data);
 
 	const handleClick = (url)=>{
 		window.open(url);
@@ -25,7 +24,7 @@ const ListContent = (props)=>{
 		return <div 
 		    key={i}
 			  className="list-item"
-			  onClick={handleClick}
+			  onClick={()=>handleClick(link)}
 		  >
 			<p className="list-item-title">{title}</p>
 			<p className="list-item-desc">{desc}</p>
